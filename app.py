@@ -16,8 +16,8 @@ def get_user():
     }
     return data
 
-@app.get("/Process")
-def home():
+@app.get("/p")
+def Process():
    return {
     "message": {
         "title": "Complete Git Push & Commit Process After Changes",
