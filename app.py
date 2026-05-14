@@ -5,7 +5,7 @@ app = FastAPI()
 @app.get("/")
 def home():
     return {
-        "message": "Welcome Samrat Soni"
+        "message": "💕💕😘😘😘 I love you Shweta 😘😘💕💕"
     }
 
 @app.get("/user")
